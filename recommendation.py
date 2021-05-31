@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 def get_data():
-    movie_data = pd.read_csv('whc-sites-2019.csv')
+    movie_data = pd.read_csv('dataset/whc-sites-2019.csv')
     movie_data['name_en'] = movie_data['name_en'].str.lower()
     return movie_data
 
