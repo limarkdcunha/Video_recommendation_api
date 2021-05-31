@@ -13,4 +13,4 @@ scipy==1.4.1
 wcwidth==0.1.7 
 webencodings==0.5.1
 Werkzeug==1.0.1
-setuptools==1.0
+
