@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 #Getting the data from csv file
 def get_data():
-    video_data = pd.read_csv('whc-sites-2019.csv')
+    video_data = pd.read_csv('dataset/whc-sites-2019.csv')
     video_data['name_en'] = video_data['name_en'].str.lower()
     return video_data
 
