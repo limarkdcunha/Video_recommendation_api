@@ -73,7 +73,7 @@ def results(movie_name):
     transform_result = transform_data(combine_result,find_movie)
 
     if movie_name not in find_movie['name_en'].unique():
-        return 'Movie not in Database'
+        return 'Video Not Found'
 
     else:
         recommendations = recommend_movies(movie_name, find_movie, combine_result, transform_result)
